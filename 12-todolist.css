@@ -1,0 +1,54 @@
+body{
+    font-family: Arial;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+.todo-input-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 80px;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.todo-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 80px;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.inputBar{
+    padding: 8px;
+    font-size: 14px;
+}
+
+.dateBar{
+    padding: 8px;
+}
+
+.addButton{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.deleteButton{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
